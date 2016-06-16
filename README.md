@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 About PrestaShop
 --------
 
@@ -114,3 +115,6 @@ Thank you for downloading and using the PrestaShop open-source e-commerce soluti
 [19]: http://doc.prestashop.com/display/PS16/System+Administrator+Guide
 [20]: http://addons.prestashop.com/
 [21]: CONTRIBUTORS.md
+=======
+# Calendrier-associatif
+>>>>>>> 7d05bbd32f4e4ce69433a3943d131a53bb06088e
