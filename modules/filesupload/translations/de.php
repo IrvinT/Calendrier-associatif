@@ -1,0 +1,42 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{filesupload}prestashop>filesupload_c7de86f69db264c3950d8ae46ed2e33f'] = 'Dateien hochladen';
+$_MODULE['<{filesupload}prestashop>filesupload_3e0727bca8c481628ece08b20bb1baea'] = 'Sind Sie sicher, dass Sie alle Ihre Details löschen wollen?';
+$_MODULE['<{filesupload}prestashop>filesupload_a4d7526ad14a30040ffb36c9ae1f1c54'] = 'Upload ID';
+$_MODULE['<{filesupload}prestashop>filesupload_49ee3087348e8d44e1feda1917443987'] = 'Name';
+$_MODULE['<{filesupload}prestashop>filesupload_bc910f8bdf70f29374f496f05be0330c'] = 'Vorname';
+$_MODULE['<{filesupload}prestashop>filesupload_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Email';
+$_MODULE['<{filesupload}prestashop>filesupload_44749712dbec183e983dcd78a7736c41'] = 'Datum';
+$_MODULE['<{filesupload}prestashop>filesupload_0b27918290ff5323bea1e3b78a9cf04e'] = 'Datei';
+$_MODULE['<{filesupload}prestashop>filesupload_a240fa27925a635b08dc28c9e4f9216d'] = 'Bestellung';
+$_MODULE['<{filesupload}prestashop>filesupload_06df33001c1d7187fdd81ea1f5b277aa'] = 'Aktionen';
+$_MODULE['<{filesupload}prestashop>filesupload_8bc73dd6339606153b65e41e3b9a7c38'] = 'Upload ohne Bestellung';
+$_MODULE['<{filesupload}prestashop>filesupload_b44dd6bf2e9c135d926ad8f5e2071e38'] = 'sehen';
+$_MODULE['<{filesupload}prestashop>filesupload_35a82907e1c8cd3e81555f2ff13e61a1'] = 'Bestellnummer';
+$_MODULE['<{filesupload}prestashop>filesupload_ccfd9851b50aaa671513b50d158ed579'] = 'aufheben';
+$_MODULE['<{filesupload}prestashop>filesupload_fb077ffc4d462f42d901572e4b63bf42'] = 'Max. Dateigröße wird benötigt.';
+$_MODULE['<{filesupload}prestashop>filesupload_b61dcbb7f1b18c15b0b043c8b057094c'] = 'Dateierweiterungen werden benötigt.';
+$_MODULE['<{filesupload}prestashop>filesupload_f4d1ea475eaa85102e2b4e6d95da84bd'] = 'Bestätigung';
+$_MODULE['<{filesupload}prestashop>filesupload_c888438d14855d7d96a2724ee9c306bd'] = 'Einstellungen aktualisiert';
+$_MODULE['<{filesupload}prestashop>filesupload_6357d3551190ec7e79371a8570121d3a'] = 'Da sind';
+$_MODULE['<{filesupload}prestashop>filesupload_4ce81305b7edb043d0a7a5c75cab17d0'] = 'Da ist';
+$_MODULE['<{filesupload}prestashop>filesupload_07213a0161f52846ab198be103b5ab43'] = 'Fehler';
+$_MODULE['<{filesupload}prestashop>filesupload_cb5e100e5a9a3e7f6d1fd97512215282'] = 'Fehler';
+$_MODULE['<{filesupload}prestashop>filesupload_f2a6c498fb90ee345d997f888fce3b18'] = 'Löschen';
+$_MODULE['<{filesupload}prestashop>filesupload_f1befaa6196084e152c8ec81d5efcc77'] = 'Dieses Modul erlaubt angemeldete Kunden Dateien hochzuloaden.';
+$_MODULE['<{filesupload}prestashop>filesupload_f4f70727dc34561dfde1a3c529b6205c'] = 'Einstellungen';
+$_MODULE['<{filesupload}prestashop>filesupload_e4e8a6172e340b2277786a7a5ecfec9c'] = 'Max Datei Größe';
+$_MODULE['<{filesupload}prestashop>filesupload_ef0ff104a630643a93fe381de836b413'] = 'Max Datei Größe in MB';
+$_MODULE['<{filesupload}prestashop>filesupload_f9cd2f7f6a3b979bd4fec5eb664ab0d3'] = 'Erlaubte Endungen';
+$_MODULE['<{filesupload}prestashop>filesupload_04adfff2e2351407b26c842be22d298c'] = 'Der Kunde darf nur Dateien mit diesen Endungen hochladen, getrennt durch Kommas. ZB.: jpg,zip,rar';
+$_MODULE['<{filesupload}prestashop>filesupload_b17f3f4dcf653a5776792498a9b44d6a'] = 'Einstellungen aktualisieren';
+$_MODULE['<{filesupload}prestashop>filesupload_23c155a66e3ce8079ab3ff0bcd340186'] = 'Vielen Dank für das Hochladen der Datei(en)';
+$_MODULE['<{filesupload}prestashop>filesupload_f29c176faa944b54085bd197fbc4a2fb'] = 'Hochladen Ihrer Dateien';
+$_MODULE['<{filesupload}prestashop>filesupload_8f1497542ca2c89b39b402846dc836a8'] = 'Wählen Sie die dazugehörende Bestellung';
+$_MODULE['<{filesupload}prestashop>filesupload_762565192a9255a637fb3669d35bb389'] = 'Ihr Browser unterstützt kein Flash, Silverlight, Gears, BrowserPlus oder HTML5. Bitte installieren Sie eines der angeführten Browsererweiterungen oder aktualisieren Sie Ihren Browser.';
+$_MODULE['<{filesupload}prestashop>filesupload_notconnected_f29c176faa944b54085bd197fbc4a2fb'] = 'Hochladen Ihrer Dateien';
+$_MODULE['<{filesupload}prestashop>filesupload_notconnected_939cf1c4e56a5ea91e720850fb23739a'] = 'Sie müssen angemeldet sein um Datein hochladen zu können';
+
+return $_MODULE;

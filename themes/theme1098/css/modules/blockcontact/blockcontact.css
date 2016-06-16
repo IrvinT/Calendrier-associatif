@@ -1,0 +1,54 @@
+.shop-phone {
+  display: none;
+  color: #fff;
+  float: right;
+  padding: 24px 0 10px;
+  text-transform: uppercase; }
+  @media (max-width: 991px) {
+    .shop-phone {
+      display: none; } }
+  .shop-phone i {
+    color: #ff5857;
+    font-size: 21px;
+    line-height: 21px;
+    padding-right: 7px; }
+  .shop-phone strong {
+    color: #ff5857; }
+
+#contact-link {
+  float: right;
+  padding-top: 26px; }
+  #contact-link a {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 3px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    #contact-link a:hover, #contact-link a.active {
+      color: #ff5857;
+      font-weight: normal; }
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px; } }
+#contact_block .label {
+  display: none; }
+#contact_block .block_content {
+  color: #888888; }
+#contact_block p {
+  margin-bottom: 4px; }
+#contact_block p.tel {
+  font: 400 17px/21px "Ubuntu", sans-serif;
+  color: #9c9c9c;
+  margin-bottom: 6px; }
+  #contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px; }

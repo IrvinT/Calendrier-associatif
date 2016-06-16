@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template file="order-detail.tpl">
+        <pattern>
+            <match><![CDATA[{foreach from=$discounts item=discount}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleOrderDetail" discounts=$discounts}
+                                {foreach from=$discounts item=discount}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="order-payment.tpl">
+        <pattern>
+            <match><![CDATA[{if count($discounts)}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleOrderPayment" discounts=$discounts}
+                                {if count($discounts)}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="order-payment-classic.tpl">
+        <pattern>
+            <match><![CDATA[{if count($discounts)}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleOrderPayment" discounts=$discounts}
+                                {if count($discounts)}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="invoice" module="pdf">
+        <pattern>
+            <match><![CDATA[<!-- CART RULES -->]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleInvoiceProductTab" order=$order discounts=$cart_rules}
+                                <!-- CART RULES -->]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="invoice.product-tab" module="pdf">
+        <pattern>
+            <match><![CDATA[<!-- CART RULES -->]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleInvoiceProductTab" order=$order discounts=$cart_rules}
+                                <!-- CART RULES -->]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="invoice-b2b" module="pdf">
+        <pattern>
+            <match><![CDATA[{if $order_invoice->total_discount_tax_incl > 0}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleInvoiceB2B" order=$order discounts=$cart_rules}
+                                {if $order_invoice->total_discount_tax_incl > 0}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="delivery-slip.product-tab" module="pdf">
+        <pattern>
+            <match><![CDATA[<!-- END PRODUCTS -->]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleDeliverySlipProductTab" order=$order}
+                                <!-- END PRODUCTS -->]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="order-slip.product-tab" module="pdf">
+        <pattern>
+            <match><![CDATA[{if is_array($cart_rules) && count($cart_rules)}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleOrderSlipProductTab" order=$order discounts=$cart_rules}
+                                {if is_array($cart_rules) && count($cart_rules)}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="shopping-cart.tpl">
+        <pattern>
+            <match><![CDATA[{if sizeof($discounts)}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleShoppingCart" discounts=$discounts}
+                                {if sizeof($discounts)}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="blockcart.tpl" module="blockcart">
+        <pattern>
+            <match><![CDATA[{if $discounts|@count > 0}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleBlockCart" discounts=$discounts}
+                                {if $discounts|@count > 0}]]></replace>
+        </pattern>
+        <pattern occurence="2">
+            <match><![CDATA[{if $show_wrapping}]]></match>
+            <replace><![CDATA[{hook h="displayCartRuleLayerCart" discounts=$discounts}
+                                {if $show_wrapping}]]></replace>
+        </pattern>
+    </template>
+    
+    <template file="blockcart-json.tpl" module="blockcart">
+        <pattern>
+            <match><![CDATA[{$discount.value_real|json_encode}{/if}]]></match>
+            <replace><![CDATA[{$discount.value_real|json_encode}{/if},"quantity": {$discount["obj"]->quantity},"unit_price": {if $priceDisplay == 1}{convertPrice|json_encode price=$discount["obj"]->unit_value_tax_exc}{else}{convertPrice|json_encode price=$discount["obj"]->unit_value_real}{/if},"unit_price_float": {if $priceDisplay == 1}{$discount["obj"]->unit_value_tax_exc|json_encode}{else}{$discount["obj"]->unit_value_real|json_encode}{/if}]]></replace>
+        </pattern>
+    </template>
+</templates>

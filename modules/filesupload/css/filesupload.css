@@ -1,0 +1,82 @@
+/* 
+    Document   : filesupload
+    Created on : 6 déc. 2011, 10:46:59
+    Author     : Gurvan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a.activator1 {
+    /* Radius */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* Opacity */
+    opacity : 0.5;
+    -moz-opacity : 0.5;
+    -ms-filter: "alpha(opacity=50)";
+    filter : alpha(opacity=50);
+    /* Shadow */
+    box-shadow:1px 1px 5px #444444;
+    -moz-box-shadow: 1px 1px 5px #aaa;
+    -webkit-box-shadow:  1px 1px 5px #444444;
+    text-shadow: 0 -1px 0 #444444;
+
+    text-decoration: none !important;
+    font-weight: bold;
+    background: url("../img/upload.png") no-repeat left #595A5E;
+    border: 0 none;  
+    color: #ffffff;
+    cursor: pointer;
+    left: 0;
+    position: fixed;
+    margin-left: 7px;
+    padding: 5px;
+    top: 10px;
+    z-index: 10000;
+    height: 48px;
+}
+
+#fuonprod2 {
+    width: 180px;
+    margin: 0 auto;
+}
+
+a.activator2 {
+    /* Radius */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* Shadow */
+    box-shadow:1px 1px 5px #444444;
+    -moz-box-shadow: 1px 1px 5px #aaa;
+    -webkit-box-shadow:  1px 1px 5px #444444;
+    text-shadow: 0 -1px 0 #444444;
+
+    text-decoration: none !important;
+    font-weight: bold;
+    background: url("../img/upload2.png") no-repeat left #595A5E;
+    border: 0 none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+a.activator3 img{
+    margin-top: 10px;
+}
+
+
+
+#bsub-text1{
+    padding-left: 40px;
+    padding-right: 10px;
+    line-height: 48px;
+}
+
+#bsub-text2{
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 48px;
+}
+

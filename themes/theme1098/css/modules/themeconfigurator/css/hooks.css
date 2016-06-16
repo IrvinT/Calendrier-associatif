@@ -1,0 +1,191 @@
+#htmlcontent_top {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+  #htmlcontent_top ul {
+    margin-bottom: 30px; }
+    @media (max-width: 1199px) {
+      #htmlcontent_top ul {
+        padding-left: 15px;
+        padding-right: 15px; } }
+    @media (max-width: 767px) {
+      #htmlcontent_top ul {
+        margin: 0 -15px; } }
+    @media (min-width: 768px) {
+      #htmlcontent_top ul li.htmlcontent-item-1,
+      #htmlcontent_top ul li.htmlcontent-item-4 {
+        border-left: none; } }
+    #htmlcontent_top ul li {
+      border-left: 1px solid #3c3a3d;
+      margin-bottom: 1px;
+      padding-left: 0;
+      padding-right: 0; }
+      @media (max-width: 767px) {
+        #htmlcontent_top ul li {
+          float: left;
+          width: 50%; } }
+      @media (max-width: 479px) {
+        #htmlcontent_top ul li {
+          float: none;
+          width: 100%; } }
+      #htmlcontent_top ul li a.item-link .item-html > div {
+        padding: 56px 5px 20px 25px;
+        position: relative;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #htmlcontent_top ul li a.item-link .item-html > div:after {
+          border-color: transparent #3c3a3d transparent transparent;
+          border-style: solid;
+          border-width: 0 19px 19px 0;
+          content: '';
+          position: absolute;
+          height: 0;
+          right: 0;
+          top: 0;
+          width: 0; }
+        @media (min-width: 768px) and (max-width: 991px) {
+          #htmlcontent_top ul li a.item-link .item-html > div {
+            padding-top: 35px;
+            padding-left: 20px; } }
+        @media (min-width: 480px) and (max-width: 767px) {
+          #htmlcontent_top ul li a.item-link .item-html > div {
+            padding-top: 35px;
+            padding-left: 20px; } }
+      #htmlcontent_top ul li a.item-link h2 {
+        color: #fff;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 42px;
+        margin: 0 0 5px;
+        padding: 0;
+        text-transform: uppercase; }
+        @media (min-width: 768px) and (max-width: 991px) {
+          #htmlcontent_top ul li a.item-link h2 {
+            font-size: 30px; } }
+        @media (min-width: 480px) and (max-width: 767px) {
+          #htmlcontent_top ul li a.item-link h2 {
+            font-size: 30px; } }
+        @media (max-width: 479px) {
+          #htmlcontent_top ul li a.item-link h2 {
+            font-size: 38px; } }
+      #htmlcontent_top ul li a.item-link p {
+        margin: 0 0 10px; }
+      #htmlcontent_top ul li a.item-link .p1 {
+        color: #fff;
+        font: italic 300 13px/20px "Ubuntu", sans-serif; }
+      #htmlcontent_top ul li a.item-link button {
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 10px;
+        padding: 11px 18px;
+        position: relative;
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #htmlcontent_top ul li a.item-link button:hover {
+          opacity: 0.65; }
+      #htmlcontent_top ul li a.item-link div {
+        overflow: hidden; }
+      #htmlcontent_top ul li a.item-link .div1 {
+        background: #ff5b5a; }
+      #htmlcontent_top ul li a.item-link .div2 {
+        background: #b0b472; }
+      #htmlcontent_top ul li a.item-link .div3 {
+        background: #5bb4eb; }
+      #htmlcontent_top ul li a.item-link .div4 {
+        background: #ff935d; }
+      #htmlcontent_top ul li a.item-link .div5 {
+        background: #67b9ba;
+        padding: 0; }
+      #htmlcontent_top ul li a.item-link .div6 {
+        background: #986fa5; }
+      #htmlcontent_top ul li a.item-link:hover button {
+        background: white; }
+      #htmlcontent_top ul li a.item-link:hover h2 {
+        -webkit-animation: 400ms ease-in-out 0s normal none 1 moveFromLeft;
+        animation: 400ms ease-in-out 0s normal none 1 moveFromLeft; }
+      #htmlcontent_top ul li a.item-link:hover button {
+        -webkit-animation: 400ms ease-in-out 0s normal none 1 moveFromBottom;
+        animation: 400ms ease-in-out 0s normal none 1 moveFromBottom; }
+      #htmlcontent_top ul li a.item-link:hover .div1 {
+        background: #f44a49; }
+        #htmlcontent_top ul li a.item-link:hover .div1 button {
+          color: #f44a49; }
+        #htmlcontent_top ul li a.item-link:hover .div1 h2 {
+          color: #fee5e5; }
+      #htmlcontent_top ul li a.item-link:hover .div2 {
+        background: #9c9f5b; }
+        #htmlcontent_top ul li a.item-link:hover .div2 button {
+          color: #9c9f5b; }
+        #htmlcontent_top ul li a.item-link:hover .div2 h2 {
+          color: #feffe4; }
+      #htmlcontent_top ul li a.item-link:hover .div3 {
+        background: #3f9fda; }
+        #htmlcontent_top ul li a.item-link:hover .div3 button {
+          color: #3f9fda; }
+        #htmlcontent_top ul li a.item-link:hover .div3 h2 {
+          color: #dff3ff; }
+      #htmlcontent_top ul li a.item-link:hover .div4 {
+        background: #f1854f; }
+        #htmlcontent_top ul li a.item-link:hover .div4 button {
+          color: #f1854f; }
+        #htmlcontent_top ul li a.item-link:hover .div4 h2 {
+          color: #ffe7da; }
+      #htmlcontent_top ul li a.item-link:hover .div5 {
+        background: #3ca6a7; }
+        #htmlcontent_top ul li a.item-link:hover .div5 button {
+          color: #3ca6a7; }
+        #htmlcontent_top ul li a.item-link:hover .div5 h2 {
+          color: #e3ffff; }
+      #htmlcontent_top ul li a.item-link:hover .div6 {
+        background: #905fa0; }
+        #htmlcontent_top ul li a.item-link:hover .div6 button {
+          color: #905fa0; }
+        #htmlcontent_top ul li a.item-link:hover .div6 h2 {
+          color: #fbeeff; }
+      #htmlcontent_top ul li:last-child {
+        margin-bottom: 0; }
+      #htmlcontent_top ul li img {
+        max-width: 100%;
+        height: auto; }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */
+@-webkit-keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-200%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%); } }
+@-webkit-keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(200%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200%); }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%); } }
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(200%); }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }

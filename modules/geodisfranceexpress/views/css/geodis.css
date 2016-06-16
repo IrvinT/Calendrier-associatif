@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+.geodis{background-color: #f4f4f4;border: 1px solid #000000;border-radius: 24px;height: 100%;margin: 2%;padding: 3%;width: 90%;overflow: auto;}
+.france-express-form .label{color: #00597a !important;float: left;font-family: arial;font-size: 12px;font-weight: bold;line-height: 21px;min-width: 0 !important;padding-bottom: 6px;padding-top: 6px;padding-left: 0;text-align: left;white-space: nowrap !important;width: 23% !important;}
+.geodis-col-2{width:64%;float: right; width: 100%;}
+.geodis-input{width: 166px !important;}
+.geodis:after {content:"";display: table;clear: both;}
+@media screen and (max-width: 599px) {
+    .geodis-form .form-control {width: 100%!important}
+    .geodis-col-1, .geodis-col-2 {float: none;width: auto;}
+    .label{float: none !important;width: auto;  display: -moz-box;}
+    .geodis-method-logo { position: relative; }.geodis-method-logo img{ max-width: 116%!important; margin-left:-14px!important}
+}
+@media screen and (max-width: 768px) {.geodis-form .form-control {width: 100%!important} .label{width: 33% !important; } .geodis-method-logo { position: relative; }.geodis-method-logo img{ max-width: 110%!important; margin-left:-14px!important}}
+.geodis-heading{font-family: arial;padding-bottom: 15px;}
+.geodis-form{-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;border-color: -moz-use-text-color #bdc2c9 #bdc2c9;border-image: none;border-right: 1px solid #bdc2c9;border-style: none solid solid;border-width: 0 1px 1px;height: 100%;overflow: auto;width: 100%;min-height: 195px;}
+.france-express-form h3{ text-transform: inherit !important;text-shadow: none !important;background: #00597a none repeat scroll 0 0 !important;color: #fff;font-family: arial;font-size: 14px!important;font-weight: bold;height: 30px;line-height: 32px;margin: 0;padding-left: 15px;text-transform: lowercase;}
+.geodis-logo{padding: 1px;width: 98%;}
+.gd-geodis-form{width: 100%}
+.france-express-form .geodis-method-name{color: #00597a !important;font-size: 30px;font-weight: bold;margin-top: 15px;padding-bottom: 27px;text-align: center;line-height: 33px;}
+.geodis-form .form-control{width: 227px;border: 1px solid #ccc;color: #666;font-size: 12px;height: 27px;line-height: 22px;padding: 0 5px;}
+.form-group {margin-bottom: 12px;background-color: #fff;}
+.geodis-box{ display: block;margin: 0 auto;width: 80%;}
+.geodis-method-logo img{display: block;
+    max-width: 490px;
+    margin-left: -13px;
+height: auto;}

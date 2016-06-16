@@ -1,0 +1,6 @@
+Hi,
+
+{firstname} {lastname} upload you files.
+
+{shop_name} - {shop_url}
+

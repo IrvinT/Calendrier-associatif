@@ -1,0 +1,39 @@
+#my-account .addresses-lists {
+  margin-bottom: 30px; }
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  padding-bottom: 10px; }
+  #my-account ul.myaccount-link-list li a {
+    background: #403e42;
+    border: 1px solid;
+    border-color: #333334;
+    color: #fff;
+    display: block;
+    font: 16px/20px "Ubuntu", sans-serif;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    #my-account ul.myaccount-link-list li a i {
+      font-size: 25px;
+      color: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 52px;
+      height: 100%;
+      padding: 10px 0 0 0;
+      text-align: center;
+      border-right: 1px solid #59595b; }
+    #my-account ul.myaccount-link-list li a span {
+      display: block;
+      padding: 13px 15px 15px 17px;
+      overflow: hidden;
+      border-left: 1px solid;
+      margin-left: 52px;
+      border-color: #333334; }
+    #my-account ul.myaccount-link-list li a:hover {
+      background: #525154; }

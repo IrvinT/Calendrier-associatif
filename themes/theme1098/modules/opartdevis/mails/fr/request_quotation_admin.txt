@@ -1,0 +1,5 @@
+Nouvelle demande de devis de: 
+Association : {assoc}
+Personne : {firstname} {lastname} - {customerMail} - {customerPhone}
+Message:
+{customerMessage}

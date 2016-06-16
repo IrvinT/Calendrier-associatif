@@ -1,0 +1,487 @@
+/* DDLX Homepage */
+/* style.css */
+/*  idTabs ~ Sean Catchpole  */
+
+
+/* Style for Usual tabs */
+.clear {
+	clear: both;
+}
+
+.navigation {
+  clear:both;
+  background : url(../ddlx_homepage/images/navigation.png) no-repeat;
+  padding : 8px;
+  height : 26px;
+  color:#111;
+  width:100%;
+}
+.navigation li { list-style:none;  float:left; }
+.navigation li a {
+  display:block;
+  padding:5px 10px;
+  text-decoration:none;
+  margin : 0px 7px 0px 0; 
+  font-size:14px ;
+  border-radius : 2px;
+  color:#FFF;
+  background:#3A3A3A;
+  border-bottom:1px solid #444444;
+}
+.navigation li a:hover {
+  color:#3A3A3A;
+  background:#B9A59B;
+ }
+.navigation li a.selected {
+  margin-bottom:0px;
+  border-bottom: 0px;
+  color:#303030; /*#000;*/
+  background:#DDDDDD;
+  cursor:default;
+  }
+.navigation div {
+  display: inline-block;
+  border-top:2px dotted #521F04;
+  width : 679px;
+  padding:0px;
+  *padding-top:3px;
+  *margin-top:-15px;
+  clear:left;
+}
+.navigation div a { color:#000; font-weight:bold; }
+
+#slider{width:700px;}
+
+
+.scroll {
+  min-height: 300px; 
+  background-color: #F7F7F7;
+  overflow: auto;
+  width : 679px;
+  padding : 7px;
+  position: relative; /* fix for IE to respect overflow */
+  clear: left;
+  margin-top : 0px;
+  border: 1px #999999 solid;
+}
+
+ div.panel {
+ background : transparent;
+ /* margin-right : 5px;
+ margin-left : 5px; */
+ /*padding:3px;*/
+ padding-top:6px;
+ padding-bottom:5px;
+  min-height: 210px;
+  width: 693px; /*680px;*/ /* change to 560px if not using JS to remove rh.scroll */
+}
+
+.scrollButtons {
+  position: absolute;
+  top: 150px;
+  cursor: pointer;
+}
+
+.scrollButtons.left {
+  left: -20px;
+}
+
+.scrollButtons.right {
+  right: -20px;
+}
+
+ul.navigation li a{
+	float: left;
+	display:block;
+}
+
+
+
+/* style2.css */
+/* général */
+#center_column .usual .products_block { border: none }
+#center_column .usual .products_block { color: #595a5e }
+#center_column .usual .products_block h4 { line-height: 1.3em }
+#center_column .usual .products_block .block_content {
+	background:  none;
+	padding: 0px;
+	border:0px;
+	margin:0px;
+	outline:0px;
+	
+	}
+#center_column .usual .products_block ul {
+	list-style: none outside none;
+}
+#center_column .usual .products_block ul li:hover { background-color: #ECECEC }
+#center_column .usual .products_block ul li {
+	font-size:1.0em; 
+	font-weight:normal;
+	float: left;
+	padding : 7px;
+	background-color: #fff;
+	margin: 5px 10px 10px 15px;
+/*	padding: 0 0 1px;*/
+	width: 127px;
+	background:#000000;
+}
+
+#center_column .usual .products_block ul li.last_item_of_line { border-right: 1px solid #D8D8D8; }
+#center_column .usual .products_block ul li.first_item_of_line { clear: both; }
+#center_column .usual .products_block ul li li.last_line { border-bottom: 1px; }
+
+#center_column .usual .products_block ul .product_accessories_description {
+	margin: 0;
+	padding: 0;
+	width : 125px;
+	height: 280px
+}
+/* bloc titre */
+#center_column .usual .products_block p,
+#center_column .usual .products_block h5 {
+padding:0px;
+ margin: 0;
+}
+ #center_column .usual div.products_block h5 {
+	background-color: transparent;
+  margin: 0;
+	display: block;
+	text-align:center;
+	vertical-align:baseline;
+}
+#center_column .usual div.products_block h5 a {
+	font-weight:bold;
+	background-color: transparent;
+	border-bottom : 1px dotted #D2D2D2;
+	color: #182945;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin:0px;
+}
+
+#center_column .usual div.products_block h5  a:hover {
+	text-decoration:underline;
+}
+
+#center_column .usual div.products_block ul li p {
+	margin: 0;
+	padding: 0;
+}
+
+/* bloc texte de description */
+#center_column .usual div.products_block div.product_desc {
+	padding:0px;
+	width : 125px;
+	color: #595a5e;
+	overflow: hidden
+}
+
+#center_column .usual div.products_block div.product_desc {
+  background:transparent;
+	border: 0;
+  color: #595A5E;
+ /*   height: 99px;*/
+  overflow: hidden;
+  margin: 0 0px;
+}
+#center_column .usual div.products_block ul li div.product_desc  a {
+	padding:0;
+	margin:0;
+	background:transparent;
+  color: #595A5E;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+#center_column .usual div.products_block ul li div.product_desc  a:hover {
+text-decoration:underline;
+}
+
+
+/* bloc image */
+#center_column .usual div.products_block a.product_image {
+	display: block;
+	padding:0px;
+	background-color: transparent;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 129px;
+	height: 129px
+}
+#center_column .usual div.products_block .product_accessories_description a.product_image {
+	width: 118px;
+	height: 85px
+}
+
+/* bloc prix et boutons */
+#center_column .usual .products_block .block_content ul li .bas {
+  display: block;
+  border:none;
+  padding:0px;
+  margin:0;
+  background:transparent;
+  font-weight:normal;
+  font-size:10px;
+  list-style-position: outside;
+}
+
+/* boutons */
+/* global button */
+.usual input.button, .usual input.button_disabled, .usual input.exclusive, .usual input.exclusive_disabled, .usual a.button, .usual a.exclusive, .usual span.button, .usual span.exclusive, .usual span.exclusive_disabled {
+	padding:0px;
+	/*background-color:transparent;
+	background-repeat: no-repeat;
+	background-position: top left;*/
+	border: 0px;
+	color: black!important;
+	font-weight: bold;
+	font-size: 10px!important;
+	text-align: center;
+	text-decoration: none!important;
+	cursor: pointer;
+	display: block;
+	line-height: 18px;
+	height: 18px;
+}
+
+/* .usual input button */
+.usual input.button, .usual input.button_disabled, .usual input.exclusive, .usual input.exclusive_disabled {
+	padding-bottom: 2px;
+}
+
+/* disabled button */
+
+.usual input.button_disabled, .usual input.exclusive_disabled, .usual span.exclusive_disabled, .usual span.exclusive_disabled {
+margin: 0.5em auto;
+/*	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	background-attachment:scroll;*/
+	width:120px;
+/*	background-image: url('http://91.121.132.113/~wendy09/themes/prestashop/img/button-medium_exclusive.png');*/
+	/*background-position: left -36px;
+/*	cursor: default;*/
+	color: #888!important;
+}
+
+/* exclusive button */
+.usual input.exclusive, .usual input.exclusive_disabled, .usual a.exclusive, .usual span.exclusive {
+	color: white!important;
+}
+
+/* exclusive disabled button */
+.usual input.exclusive_disabled, .usual span.exclusive_disabled {
+	color: #488c40!important;
+}
+
+/* exclusive hover button */
+.usual input.button, .usual input.button_disabled, .usual input.exclusive, .usual input.exclusive_disabled, .usual a.button, .usual a.exclusive, .usual span.button, .usual span.exclusive {
+	width: 120px;
+/*	background-image: url('http://91.121.132.113/~wendy09/themes/prestashop/img/button-medium.png');*/
+}
+
+/* exclusive button */
+.usual input.exclusive, .usual input.exclusive_disabled, .usual a.exclusive, .usual span.exclusive {
+width:120px;
+/*background-image: url('http://91.121.132.113/~wendy09/themes/prestashop/img/button-medium_exclusive.png');*/
+ }
+
+.usual input.button:hover, .usual a.button:hover {
+/*	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	background-attachment:scroll;*/
+	width: 120px;
+/*	background-image: url('http://91.121.132.113/~wendy09/themes/prestashop/img/button-medium.png');*/
+	background-position: left -18px;
+}
+
+.usual input.exclusive:hover, .usual a.exclusive:hover {
+	/*background-color:transparent;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	background-attachment:scroll;*/
+	width: 120px;
+/*	background-image: url('http://91.121.132.113/~wendy09/themes/prestashop/img/button-medium_exclusive.png');*/
+	background-position: left -18px;
+}
+
+
+
+
+/* DDLX Share */
+/* style.css */
+#ddlx_share {
+	position:fixed;
+	top:30%;
+	right:0px;
+	width:37px;
+	height:160px;
+	padding-top:8px;
+	padding-left:4px;
+	padding-bottom:4px;
+	padding-right:3px;
+}
+.ddlx_share {
+	margin-bottom:8px;
+}
+
+
+/* DDLX Slider */
+/* style.css */
+/* 
+-------------------------------
+DDLX - Slideshow  CSS
+http://www.ddlx.org
+-------------------------------
+*/
+
+#banner {
+  position:relative; 	
+  margin : 10px 10px 0 10px;
+
+}
+#banner-imgs {position:relative;  width: 960px; height: 300px; background : #F3FAE1; overflow:hidden }
+#banner .btn {position:absolute; top:215px; left:120px; }
+#news li {padding-bottom:5px;}
+.grid_16{display:inline;float:left;margin-left:0px;margin-right:0px}
+.container_12 .grid_12,.container_16 .grid_16{width:660px;}
+
+#nav {
+	position:absolute;
+	background:url(../ddlxslider/images/slider-bullet.png) no-repeat center bottom;
+	padding : 80px 20px 10px 20px;
+	left:430px;
+	top:200px;
+	height: 20px;
+	z-index : 1000;
+}
+a.box { 
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../ddlxslider/images/bullets.png) no-repeat center top;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+a.activeSlide {
+  width:12px;
+	height:12px;
+	background:url(../ddlxslider/images/bullets.png) no-repeat center bottom;
+}
+	
+
+/* Scrollpage */
+/* ui.totop.css */
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.1
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../../scrollpage/img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../../scrollpage/img/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+
+
+
+/* DDLX Manufacturers */
+/* style.css */
+div.jMyCarousel .prev{
+	background: url(../../ddlx_manufacturers/img/left.png) center center no-repeat;
+	width:47px;
+	height:61px;
+	margin-top : 10px;
+	border:0px;
+	
+}
+
+div.jMyCarousel .next{
+	background: url(../../ddlx_manufacturers/img/right.png) center center no-repeat;
+	width:40px;
+	height:61px;
+	margin-top : 10px;
+	border:0px;
+}
+
+div.jMyCarousel .up{
+	background: url(../../ddlx_manufacturers/img/up.png) center center no-repeat;
+	width:61px;
+	height:40px;
+	border:0px;
+}
+
+div.jMyCarousel .down{
+	background: url(../../ddlx_manufacturers/img/down.png) center center no-repeat;
+	width:47px;
+	height:61px;
+	border:0px;
+}
+
+
+/** Carousel 2 **/
+div.jMyCarousel{
+	margin: 10px ;
+	padding : 7px;
+	border-radius : 5px;
+	border : 1px solid #B5B5B5;
+}
+
+div.jMyCarousel ul{
+  float : left;
+
+}
+
+div.jMyCarousel ul li{
+	margin:5px;
+/*	border:1px solid #444;*/
+	line-height:0px;
+}
+
+div.jMyCarousel ul li a{ /* in case of link */
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+
+div.jMyCarousel ul li a img{
+	display:block;
+		padding:3px 25px 3px 25px;
+	border:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}

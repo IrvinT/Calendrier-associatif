@@ -1,0 +1,40 @@
+#opartDevisForm textarea{
+    height:100px;
+}
+#opartDevisForm .opartDevisConteneurTextarea {    
+    width:45%;
+}
+#opartDevisForm textArea{
+    width:100%;
+}
+#opartDevisForm .opartDevisConteneurTextareaLeft {
+    float:left;
+}
+#opartDevisForm .opartDevisConteneurTextareaRight {
+    float:right;
+}
+#opartDevisForm .opartDevisConteneurQuotationName {
+    text-align: right;
+}
+#opartDevisForm .opartDevisConteneurQuotationName input{
+    width:350px;
+}
+#opartDevisForm .opartDevisInfos {
+    font-style:italic;
+    text-align:right;
+    padding-bottom:15px;
+}
+#opartDevisForm .opartDevisConteneurFieldCustomerInformation {
+    width:22%;    
+    float:left;
+    margin:0 4% 0 0;
+}
+#opartDevisForm .opartDevisConteneurFieldCustomerInformationLast {
+    margin:0;
+}
+#opartDevisForm .opartDevisConteneurFieldCustomerInformation input {
+    width:100%;    
+}
+#opartDevisForm #cart_summary {
+    width:100%;
+}

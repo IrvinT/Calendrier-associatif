@@ -1,0 +1,9 @@
+Hi {firstname} {lastname},
+
+Your files have been uploaded.
+
+{shop_name} - {shop_url}
+
+
+
+{shop_url} réalisé par PrestaShop™

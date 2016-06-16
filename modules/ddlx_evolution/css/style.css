@@ -1,0 +1,315 @@
+/*
+	#########################################
+	#								   		#
+	#	    DDLX EVO 6.0					#
+	#								 		#
+	#		Date : 	25/12/2012			   	#
+	#    	 DDLX Multimedia		 	  	#
+	#								        #
+	#########################################
+*/
+
+input[type="file"]{ margin: 5px  10px 0 0; max-width:220px;}
+fieldset {    background-color: #F0F0F0;}
+label { float:none; width:auto;	padding:5px;}
+.center { text-align: center;}
+ul {list-style:circle;}
+li {padding-bottom : 0}
+hr {
+    height: 24px;
+    border-top: solid 1px #bbf;
+}
+select optgroup,select optgroup option{margin: 0; padding: 0}
+select optgroup{
+    line-height: 0;
+}
+.wrapper{
+    background-color :#F0F0F0;
+    /* uncomment here to fix height */
+    /*height: 500px;
+    overflow-y: auto;
+    overflow-x : hidden;*/
+}
+
+table {
+	text-align : left;
+	vertical-align : 50%;
+	width:90%;
+	margin:auto;
+}
+
+table, td, th{
+    margin:0;
+    padding:0;
+    text-align:left;
+    border:0;
+    vertical-align: top;
+}
+
+
+.preview {
+    max-width: 220px;
+    min-width: 60px;
+	max-height : 150px;
+	border :1px solid #ff9900;
+	padding: 5px;
+	background:white;
+}
+
+.advise {
+    line-height: 12px;
+    font-weight : normal;
+    font-style : italic;
+    font-size: 11px;
+    color : #AAA;
+}
+
+table.profile td{text-align: center}
+table.profile th{ text-align: center; padding-bottom: 10px}
+
+#bloc_color {
+    margin-left: 20px;
+	width:220px;
+	line-height: 30px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#preview3 {
+	width:190px;
+	line-height: 28px;
+	text-align:center;
+	font-weight:bold;
+}
+
+input.active, input.inactive, input.delete, input.export, input.generate {
+    cursor : pointer;
+    color : #F0F0F0;
+    width: 17px;
+    margin	: 0;
+    padding-left:30px;
+    font-size : 0;
+    height : 15px;
+    border : none;
+}
+input.active { background: transparent url(../img/data/enabled.gif) no-repeat;}
+input.inactive { background: transparent url(../img/data/moor_cursor.gif) no-repeat;}
+input.delete {background: transparent url(../img/data/del.gif) no-repeat; }
+input.export {background: transparent url(../img/data/exp.png) no-repeat; }
+input.generate {background: transparent url(../img/data/delivery.gif) no-repeat; }
+
+#templatelist{
+	width : 100%;
+	height : 760px;
+	overflow-y : auto;
+	overflow : -moz-scrollbars-vertical; 
+}
+
+input[type="text"]{
+	padding-left:0;
+	border : none;
+	height : 15px;
+}
+	
+.transparent {font-weight:normal;margin-left:35px; }
+	
+/* ######################    coda-slider  ########################*/
+.stripViewer .panelContainer .panel ul {	text-align: left;	margin: 0 15px 0 30px;	}
+.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+	margin: 20px 0;
+	position: relative;
+	width: 100%;
+}
+
+
+/* These 2 lines specify style applied while slider is loading */
+.csw {width: 100%; height: 460px; background: #fff; overflow: scroll}
+.csw .loading {margin: 200px 0 300px 0; text-align: center}
+.stripViewer { /* This is the viewing window */
+	position: relative;
+	overflow: hidden; 
+	border: 1px solid #999999; /* this is the border. should have the same value for the links */
+	margin: auto;
+	width: 914px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+    /*height: 500px;*/
+	clear: both;
+	background: #F0F0F0;
+}	
+
+
+.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+	position: relative;
+	left: 0; top: 0;
+	width: 100%;
+	list-style-type: none;
+	/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+}	
+
+.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+	float : left;
+	height : 100%;
+	position : relative;
+	width : 914px; /* Also specified in  .stripViewer  above */
+}
+
+.stripViewer .panelContainer .panel .wrapper { padding: 10px; }
+.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+	margin: auto;		}
+
+.stripNav ul { /* The auto-generated set of links */
+	list-style: none;
+    background: #1e5799;
+    height:32px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-8 */
+}
+
+.stripNav ul li {
+	float: left;
+	margin-right: 2px; /* If you change this, be sure to adjust the initial value of navWidth in coda-slider.1.1.1.js */
+}
+
+.stripNav a { /* The nav links */
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0 15px;
+}
+
+
+/*
+.stripNav li.tab1 a,.stripNav li.tab2 a,.stripNav li.tab3 a,.stripNav li.tab4 a,.stripNav li.tab5 a.stripNav li.tab6 a.stripNav li.tab7 a {
+
+}*/
+
+.stripNav li a:hover { background: #333;color:#fff; }
+.stripNav li a.current { background: #000;color: #fff; }
+.stripNavL, .stripNavR { /* The left and right arrows */
+	position: absolute;
+	top: 230px;
+	text-indent: -9000em;
+}
+
+.stripNavL a, .stripNavR a {
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+
+.stripNavL {	left: 0;}
+.stripNavR {	right: 0;}
+.stripNavL {	background: no-repeat center;}
+.stripNavR {	background: no-repeat center;}
+
+
+table {
+    width: 780px;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans;
+    padding:0;
+    margin:0 auto;
+}
+table td {
+    padding: 0 0 4px 0
+}
+
+table th {
+    font-size: 15px;
+    text-align: right;
+    padding: 4px 20px 4px 0;
+}
+
+table h2 {
+    font-family: 'century gothic', sans;
+    font-style: italic;
+    border-bottom: 1px solid #bbf;
+    color: #99c;
+    margin:15px 0 5px
+}
+
+#tableau {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#tableau th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2gjh1nPI/AAAAAAAACbg/7lNsVpks2oY/s1600/gradhead.png') repeat-x;
+    border-top: 2px solid #d3ddff;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+
+#tableau td {
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url('http://1.bp.blogspot.com/_xDpoN6UfFFY/S-J2f5yBC3I/AAAAAAAACbY/zWXYXsR-w5E/s1600/gradback.png') repeat-x;
+}
+
+#tableau tfoot tr td {
+    background: #e8edff;
+    font-size: 16px;
+    color: #99c;
+    text-align:center;
+}
+
+#tableau tbody tr:hover td {
+    background: #d0dafd url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2hsztUzI/AAAAAAAACbo/ztV1CK0RUrE/s1600/gradhover.png') repeat-x;
+    color: #339;
+}
+
+#tableau a:hover {    text-decoration:underline;}
+
+
+ a.bulle {
+     position:relative;
+     color:#396a86; 
+     text-decoration:none; 
+     font-family:arial, verdana, sans-serif; 
+     text-align:center; 
+     font-size:11px;
+   }
+   
+   a.bulle:hover {
+      background: #CECED1; 
+      z-index: 50; 
+   }
+   
+   a.bulle span { 
+     display: none; 
+   }
+   
+   a.bulle:hover span {
+      display: block; 
+      position: absolute;
+      top: -10px; 
+      left: 40px;
+      font-family:arial, verdana, sans-serif; 
+      text-align:justify; 
+      font-size:12px;
+      font-weight:normal;
+      width:300px;
+      background: #F3F3F3;
+      padding: 5px;
+      border: 1px solid #333132;
+      border-left: 10px solid #333132;
+   }
+

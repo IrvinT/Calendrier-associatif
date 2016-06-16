@@ -1,0 +1,84 @@
+#search_block_top {
+  float: right;
+  margin-right: 115px;
+  padding-top: 23px; }
+  #search_block_top #searchbox {
+    background: #3f3c41;
+    border: none;
+    color: #fff;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    width: 256px; }
+  #search_block_top .btn.button-search {
+    background: none;
+    border: none;
+    color: #fff;
+    display: block;
+    top: -0;
+    padding: 10px 0 11px 0;
+    position: absolute;
+    right: -0;
+    text-align: center;
+    width: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    #search_block_top .btn.button-search span {
+      display: none; }
+    #search_block_top .btn.button-search:before {
+      content: "\f002";
+      display: block;
+      font-family: "FontAwesome";
+      font-size: 12px;
+      width: 100%;
+      text-align: center; }
+    #search_block_top .btn.button-search:hover {
+      color: #ff5857;
+      background: none; }
+  #search_block_top #search_query_top {
+    background: none;
+    border: none;
+    color: #fff;
+    height: 37px;
+    display: inline-block;
+    padding: 12px 10px 8px 13px; }
+  @media (max-width: 767px) {
+    #search_block_top {
+      float: none;
+      margin-right: 0;
+      text-align: center; }
+      #search_block_top #searchbox {
+        display: inline-block;
+        float: none; } }
+
+.ac_results {
+  background: white;
+  border: 1px solid #333334;
+  width: 271px;
+  margin-top: -1px; }
+  .ac_results li {
+    padding: 0 10px;
+    font-weight: normal;
+    color: #686666;
+    font-size: 13px;
+    line-height: 22px; }
+    .ac_results li.ac_odd {
+      background: white; }
+    .ac_results li:hover, .ac_results li.ac_over {
+      background: #fbfbfb; }
+
+form#searchbox {
+  position: relative; }
+  form#searchbox label {
+    color: #9c9c9c; }
+  form#searchbox input#search_query_block {
+    margin-right: 10px;
+    max-width: 222px;
+    margin-bottom: 10px;
+    display: inline-block;
+    float: left; }
+  form#searchbox .btn.btn-sm {
+    float: left; }
+    form#searchbox .btn.btn-sm i {
+      margin-right: 0; }

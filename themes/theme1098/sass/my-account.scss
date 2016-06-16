@@ -1,0 +1,50 @@
+@import "_theme_variables";
+#my-account {
+	.addresses-lists {
+		margin-bottom: 30px;	
+	}
+	ul.myaccount-link-list {
+		li {
+			overflow: hidden;
+			padding-bottom: 10px;
+			a {
+				background: #403e42;
+				border: 1px solid;
+				border-color: $base-border-color;
+				color: #fff;
+				display: block;
+				font: 16px/20px $font-custom;
+				overflow: hidden;
+				position: relative;
+				text-decoration: none;
+				text-transform: uppercase;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				i {
+					font-size: 25px;
+					color: #fff;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 52px;
+					height: 100%;
+					padding: 10px 0 0 0;
+					text-align: center;
+					border-right: 1px solid lighten($base-border-color, 15);
+				}
+				span {
+					display: block;
+					padding: 13px 15px 15px 17px;
+					overflow: hidden;
+					border-left: 1px solid;
+					margin-left: 52px;
+					border-color: $base-border-color;
+				}
+				&:hover {
+					background: #525154;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,124 @@
+/*
+	Template OVERRIDE for : 	http://www.calendrier-associatif.com
+	type : text/CSS
+
+	Designed by : Yggdragstyle
+*/
+
+	
+
+	/* * *  Q U A N T I T Y  * * */
+
+	.cart_quantity div.selector
+	{
+		width: 91px !important;
+		background: none !important;
+		border-color: silver !important;
+		border-radius: 5px !important;
+	}
+
+	.cart_quantity div.selector > span
+	{
+		padding-right: 10px !important;
+		color: silver !important;
+	}
+	.cart_quantity div.selector > span:after
+	{
+	    width: 16px;
+		background: none !important;
+		border: none !important;
+		color: silver !important;
+		pointer-events: none;
+	}
+
+	.cart_quantity div.selector > select { width: 100% !important; }
+	/*----------------------------------------------*/
+
+
+
+	/* * *  H E A D E R  * * */
+
+	@media (min-width: 992px) { header .row #header_logo { top: -47px; } }
+	@media (max-width: 991px) and (min-width: 768px) {	header .row #header_logo { top: -39px; } }
+
+	@media (min-width: 768px)
+	{
+		header .nav nav { width: 85%; }
+		header .row #header_logo img { max-height: 135px; }
+		
+		#block_top_menu .sf-menu > li { vertical-align: top; }
+		#block_top_menu .sf-menu > li a
+		{
+			    text-align: center;
+		    	padding: 3px 5px !important;
+		}
+	}
+	
+	#block_top_menu .sf-menu .submenu-container { visibility: hidden !important; }
+
+	/*----------------------------------------------*/
+
+
+	/* * *  P R O D U C T S  * * */
+
+	@media (min-width: 992px) {  }
+	@media (max-width: 991px) and (min-width: 768px) {  }
+
+	@media (min-width: 768px)
+	{
+		#fuonprod2 { display: none; }
+	}
+	/*----------------------------------------------*/
+
+
+
+	/* * *  S T E P   O R D E R S  * * */
+
+
+				/*	First STEP	*/
+
+	#cart_summary > thead > tr > th sup { color: #9C9C9C !important; }
+
+	.price span { text-align: center !important; }
+
+	.price.special-price
+	{
+		font-size: 160% !important;
+		color: white !important;
+	}
+				
+				/*	05. STEP	*/
+
+	#order-confirmation h2.cheque-indent { text-align: center !important; }
+	#order-confirmation h2.cheque-indent strong.dark { color: white !important; }
+
+	#order-confirmation .box p { font-size: 110%; }
+	#order-confirmation .box .row strong { color: white !important; }
+	#order-confirmation .box .row
+	{
+		padding-top: 2% !important;
+		padding-bottom: 2% !important;
+		border-top: 1px solid silver !important;
+		border-bottom: 1px solid silver !important;
+	}
+
+
+	/*----------------------------------------------*/
+
+
+
+	/* * *    * * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

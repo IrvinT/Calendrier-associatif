@@ -1,0 +1,80 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  border-top: 1px solid #333334;
+  line-height: 19px;
+  margin: 0 0 26px 0; }
+  .content_scene_cat .content_scene_cat_bg {
+    padding: 20px 0 0 0; }
+  .content_scene_cat span.category-name {
+    color: #ff5857;
+    font: 24px/30px "Ubuntu", sans-serif;
+    display: inline-block;
+    margin-bottom: 12px;
+    text-transform: uppercase; }
+  .content_scene_cat p {
+    margin-bottom: 0; }
+  .content_scene_cat a.lnk_more {
+    color: #ff5857;
+    font-weight: bold; }
+  .content_scene_cat a:hover {
+    color: #fff; }
+  .content_scene_cat .content_scene {
+    color: #9c9c9c; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #9c9c9c; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: white; }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  border-top: 1px solid #333334;
+  padding: 15px 0 0 0; }
+  #subcategories p.subcategory-heading {
+    font-weight: bold;
+    color: #9c9c9c;
+    margin: 0 0 15px 0; }
+  #subcategories ul {
+    margin: 0 0 0 -20px; }
+    #subcategories ul li {
+      float: left;
+      width: 128px;
+      margin: 0 0 13px 20px;
+      text-align: center;
+      height: 202px; }
+      #subcategories ul li .subcategory-image {
+        padding: 0 0 8px 0; }
+        #subcategories ul li .subcategory-image a {
+          display: block;
+          border: 1px solid #333334;
+          padding: 9px;
+          position: relative;
+          background: white;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          #subcategories ul li .subcategory-image a img {
+            max-width: 100%;
+            vertical-align: top;
+            height: auto; }
+      #subcategories ul li h5 {
+        margin: 0; }
+      #subcategories ul li .subcategory-name {
+        font: 600 15px/18px "Ubuntu", sans-serif;
+        color: #ff5857;
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #subcategories ul li .subcategory-name:hover {
+          color: white; }
+      #subcategories ul li .cat_desc {
+        display: none; }
+      #subcategories ul li:hover .subcategory-image a {
+        border-width: 5px;
+        padding: 5px; }

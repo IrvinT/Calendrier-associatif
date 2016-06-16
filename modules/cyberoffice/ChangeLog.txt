@@ -1,0 +1,120 @@
+--------------------------------------------------------------
+CyberOffice  ChangeLog
+--------------------------------------------------------------
+***** ChangeLog for 1.2.32 05/2016
+- changed : nameserver on soap call
+
+***** ChangeLog for 1.2.31 04/2016
+- added : nusoap class on dolibarr
+
+***** ChangeLog for 1.2.30 04/2016
+- added : delivery order address, invoice order address
+
+***** ChangeLog for 1.2.29 03/2016
+- fixed : php 7.0.0 (populate_raw_post_data)
+
+***** ChangeLog for 1.2.28 03/2016
+- fixed : timeout on curl method
+
+***** ChangeLog for 1.2.27 02/2016
+- added : optional curl method
+- fixed : script_order synchronization
+- fixed : category image on script category
+
+***** ChangeLog for 1.2.26 02/2016
+- added : payment type on bank account
+- fixed : optional stock mouvement
+- fixed : https port
+- fixed : discount tva = 0 on export customer
+ 
+***** ChangeLog for 1.2.25 01/2016
+- added : optional statut for invoice and order synchronization
+- fixed : add product to category
+- added : mode_reglement on order/invoice
+- fixed : error message on delete product
+- added : association payment mode and bank account
+
+***** ChangeLog for 1.2.24 12/2015 (*)
+- fixed : pb with product's weight on declination (with decimal)
+- fixed : pb with category image
+- added : Optional stock synchronization
+
+***** ChangeLog for 1.2.23 12/2015
+- fixed : product synchronization only 'save' button
+
+***** ChangeLog for 1.2.22 11/2015
+- fixed : image export
+- fixed : speed processing
+
+***** ChangeLog for 1.2.21 11/2015
+- added : special price
+- fixed : barcode_type
+
+***** ChangeLog for 1.2.20 10/2015
+- added : spanish translation
+- added : optional invoice and paiement synchronization
+- added : shop list in dolibarr configuration
+- fixed : log price
+- added : forcing stock mouvement
+- fixed : pb with reduction amount
+
+***** ChangeLog for 1.2.19 09/2015
+- fixed : category pb with Dolibarr 3.8
+
+***** ChangeLog for 1.2.18 09/2015
+- added : Dolibarr 3.8
+
+***** ChangeLog for 1.2.17 07/2015
+- fixed : (DOLIBARR) pb with user object on trigger
+- added : (DOLIBARR) add syslog on create order
+
+***** ChangeLog for 1.2.16 07/2015
+- fixed : (DOLIBARR) pb with trigger when update customer
+- fixed : (DOLIBARR) product's image directory (PRODUCT_USE_OLD_PATH_FOR_PHOTO)
+
+***** ChangeLog for 1.2.15 06/2015
+- changed : (DOLIBARR) don't synchronize customer's category
+
+***** ChangeLog for 1.2.13/14 05/2015
+- fixed : bug on script order
+
+***** ChangeLog for 1.2.11/12 05/2015
+- fixed : current_shop on order customer
+
+***** ChangeLog for 1.2.10 05/2015
+- fixed : Dolibarr : product with combination update
+
+***** ChangeLog for 1.2.9 05/2015
+- added : Dolibarr 3.7
+
+***** ChangeLog for 1.2.8 05/2015
+- added : synchronize all customers (multishop)
+
+***** ChangeLog for 1.2.7 05/2015
+- fixed : blank line after php
+- added : cast sql requete
+
+***** ChangeLog for 1.2.6 04/2015
+- changed : use PS_SHOP_DEFAULT to synchronize customer
+
+***** ChangeLog for 1.2.5 03/2015 ********
+- added : https support (5)
+- fixed : soap user-agent
+- added : use hook postupdate
+- fixed : problem with product price = 0
+- fixed : update problem with ean13/upc
+- fixed : <br> in address dolibarr pdf (b)
+- added : multishop, all customer synchronize on the same customer in dolibarr (c)
+- fixed : difference between count order in conf and in scriptorder (d)
+
+***** ChangeLog for 1.1 02/2015 ********
+- added : add extrafields long description on dolibarr (a)
+- added : add message hookorder status on prestashop (a)
+- added : manufacturer synchronization (encours)
+- fixed : problem with stock decrementation (b)
+- added : Prestashop order number on the ref customer on Dolibarr invoice (c)
+- fixed : company/individual
+- fixed : delete shipping/discount services on Dolibarr
+- fixed : shipping vat when ht invoice
+- added : multishop : shop name on the prestashop configuration 
+- added : matching on reference

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>opartdevis</name>
+	<displayName><![CDATA[Op&#039;art devis]]></displayName>
+	<version><![CDATA[3.0.7]]></version>
+	<description><![CDATA[Ce module offre la possibilit&eacute; &agrave; vos clients de cr&eacute;er des devis]]></description>
+	<author><![CDATA[Op&#039;art - Olivier CLEMENCE]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Etes-vous sûr de vouloir supprimer ce module ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

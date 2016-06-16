@@ -1,0 +1,29 @@
+#HOOK_SHOPPING_CART_EXTRA .opartDevisCartToQuotationLink {
+    float:right;
+}
+.opartDevisQuotationRequestLink {
+    margin-top:5px;
+}
+#opartDevisConteneurDisplayTop {
+    clear:both;
+    text-align:center;
+}
+#opartDevisConteneurDisplayTop .btn{
+    margin:0 10px;
+    display:inline-block;
+}
+/*
+#opartDevisConteneurDisplayTop {
+    float:right;
+    margin-top:5px;
+}
+#opartDevisConteneurDisplayTop .btn{
+    float:right;
+}
+#header .col-sm-4 .shopping_cart {
+    padding-top:15px;
+}
+#header .cart_block {
+    top:60px;
+}
+*/
